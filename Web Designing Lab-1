@@ -18,7 +18,7 @@
 	<img src="xyz" height="x" width="y" alt="Global News"><hr><br>
 	<iframe src="xyz" height="x" width="y" alt="youtube video"</iframe><hr><br>
 	<video src="xyz" height="x" width="y" alt="video"></video><br><hr>
-	<audio src ="xyz" alt="audio"><hr><br>
+	<audio src ="xyz" alt="audio"></audio><hr><br>
 	<a href="xyz">Read More Here></a>
 	<center>
 	<p>Thanks For visiting</p>
