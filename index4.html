@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <center>
+    <h1>Student Registration Form</h1>
+    <hr>
+</center>
+<center>
+    <!-- Registration Form -->
+    <form action="submit.html" method="post">
+        <!-- Student Name -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+        <!-- Email Address (With Validation) -->
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="abc@example.com" required><br><br>
+
+        <!-- Password -->
+        <label for="Password">Password:</label>
+        <input type="email" id="email" name="email" placeholder="Enter Password" required><br><br>
+
+        
+        <!-- Gender Selection -->
+        <label for="gender">Gender:</label>
+        <input type="radio" value="Male" name="gender" id="Male">
+        <label for="Male">Male</label>
+        <input type="radio" value="Female" name="gender" id="Female">
+        <label for="Female">Female</label>
+        <input type="radio" value="Other" name="gender" id="Other">
+        <label for="Other">Other</label>
+        <br><br>
+        <!-- Course Selection -->
+        <label for="course">Select Course:</label>
+        <select id="course" name="course" required>
+            <option value="">--Select Course--</option>
+            <option value="btech">B.Tech</option>
+            <option value="mba">MBA</option>
+            <option value="bsc">Mtech</option>
+            <option value="bca">BCA</option>
+        </select><br><br>
+        <!-- Phone Number -->
+        <label for="phone">Contact Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required><br><br>
+        
+        <!-- Address -->
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" placeholder="Enter your full address" rows="5" cols="40" required></textarea><br><br>
+
+        <!-- Buttons -->
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+    </form>
+
+    <hr>
+    <p>&copy; 2025 Student Registration Portal.</p>
+    </center>
+</body>
+</html>
